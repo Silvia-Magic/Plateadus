@@ -1,0 +1,68 @@
+*, *:after, *:before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  border: none;
+}
+
+* {
+  outline: none;
+}
+
+* {
+  /*box-sizing: inherit;*/
+}
+
+*:before, *:after {
+  box-sizing: inherit;
+}
+
+#wp {
+  position: fixed;
+  z-index: 100;
+  height: 60px;
+  width: 60px;
+  right: 40px;
+  bottom: 40px;
+  border-radius: 50px;
+  background-color: rgb(38,231,7);
+  font-size: 30px;
+  text-align: center;
+  box-shadow: 2px 2px 3px #000000;
+  color: #FFF;
+}
+
+#wp:hover {
+  /*color: rgb(72,90,255);*/
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body a {
+  color: inherit;
+  text-decoration: none;
+}
+
